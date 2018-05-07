@@ -1,0 +1,48 @@
+2018-04-29T20:29:41+00:00 CRITICAL Cannot redeclare SearchFile() (previously declared in /var/www/html/nyobaksepuluh/wp-content/plugins/wc-dynamic-pricing-and-discounts/classes/abstract/class.plugin-modules.php:51)
+
+2018-04-29T20:29:53+00:00 CRITICAL Cannot redeclare SearchFile() (previously declared in /var/www/html/nyobaksepuluh/wp-content/plugins/wc-dynamic-pricing-and-discounts/classes/abstract/class.plugin-modules.php:51)
+
+2018-05-06T21:51:34+00:00 CRITICAL Uncaught Error: Call to a member function log_debug() on null in /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-security-database-menu.php:596
+Stack trace:
+#0 /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-security-database-menu.php(447): AIOWPSecurity_Database_Menu->alter_table_views('wp_', 'nyamm_')
+#1 /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-security-database-menu.php(198): AIOWPSecurity_Database_Menu->change_db_prefix('wp_', 'nyamm_')
+#2 /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-security-database-menu.php(77): AIOWPSecurity_Database_Menu->render_tab1()
+#3 /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-security-database-menu.php(20): AIOWPSecurity_Database_Menu->render_menu_page()
+#4 /var/www/html/nyobaksepuluh/wp-content/plugins/all-in-one-wp-security-and-firewall/admin/wp-
+
+2018-05-06T22:32:20+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/html/nyobaksepuluh/wp-content/themes/lapa/templates/page-title-bars/layout.php:55
+Stack trace:
+#0 /var/www/html/nyobaksepuluh/wp-includes/template.php(690): require()
+#1 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', false)
+#2 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/framework/classes/class-layout.php(436): get_template_part('templates/page-...', '1')
+#4 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/header.php(29): Lapa_Layout->render_page_title_bar_layout_tpl()
+#5 /var/www/html/nyobaksepuluh/wp-includes/template.php(688): require_once('/var/www/html/n...')
+#6 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', true)
+#7 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/htm
+
+2018-05-06T22:32:57+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/html/nyobaksepuluh/wp-content/themes/lapa/templates/page-title-bars/layout.php:55
+Stack trace:
+#0 /var/www/html/nyobaksepuluh/wp-includes/template.php(690): require()
+#1 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', false)
+#2 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/framework/classes/class-layout.php(436): get_template_part('templates/page-...', '1')
+#4 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/header.php(29): Lapa_Layout->render_page_title_bar_layout_tpl()
+#5 /var/www/html/nyobaksepuluh/wp-includes/template.php(688): require_once('/var/www/html/n...')
+#6 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', true)
+#7 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/htm
+
+2018-05-06T22:33:00+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on null in /var/www/html/nyobaksepuluh/wp-content/themes/lapa/templates/page-title-bars/layout.php:55
+Stack trace:
+#0 /var/www/html/nyobaksepuluh/wp-includes/template.php(690): require()
+#1 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', false)
+#2 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/framework/classes/class-layout.php(436): get_template_part('templates/page-...', '1')
+#4 /var/www/html/nyobaksepuluh/wp-content/themes/lapa/header.php(29): Lapa_Layout->render_page_title_bar_layout_tpl()
+#5 /var/www/html/nyobaksepuluh/wp-includes/template.php(688): require_once('/var/www/html/n...')
+#6 /var/www/html/nyobaksepuluh/wp-includes/template.php(647): load_template('/var/www/html/n...', true)
+#7 /var/www/html/nyobaksepuluh/wp-includes/general-template.php(41): locate_template(Array, true)
+#8 /var/www/htm
+
